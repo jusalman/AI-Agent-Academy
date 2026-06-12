@@ -17,28 +17,29 @@
   <circle cx="1050" cy="500" r="120" fill="rgba(255,107,53,0.08)"/>
 
   <!-- 상단 뱃지 -->
-  <rect x="72" y="72" width="320" height="40" rx="6" fill="rgba(255,255,255,0.1)"/>
-  <text x="88" y="98" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ff6b35">🏢 기업/법인 전용 정부 지원 과정</text>
+  <rect x="72" y="72" width="450" height="40" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="88" y="98" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ff6b35">고용인원 10명 이상 법인·개인사업자 대상</text>
 
   <!-- 메인 타이틀 -->
-  <text x="72" y="200" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#ffffff">단 10만 원으로 구축하는</text>
-  <text x="72" y="280" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#ffffff">우리 회사 맞춤형</text>
-  <text x="72" y="360" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#ff6b35">AI 에이전트 워크샵</text>
+  <text x="72" y="225" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ffffff">교육비 90% 환급,</text>
+  <text x="72" y="295" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ffffff">단 10만 원으로</text>
+  <text x="72" y="365" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ff6b35">우리 회사</text>
+  <text x="72" y="435" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ff6b35">AI 에이전트 만들기</text>
 
   <!-- 구분선 -->
-  <rect x="72" y="400" width="80" height="4" rx="2" fill="#ff6b35"/>
+  <rect x="72" y="455" width="80" height="4" rx="2" fill="#ff6b35"/>
 
   <!-- 서브 텍스트 -->
-  <text x="72" y="450" font-family="Arial, sans-serif" font-size="26" fill="#b8c5d6">정부 지원 90% 환급  |  기업·법인 임직원 전용  |  1일 7시간 단기 집중</text>
+  <text x="72" y="500" font-family="Arial, sans-serif" font-size="24" fill="#b8c5d6">임직원 대상 AI 교육  |  병원·법률사무소·전문서비스업 가능</text>
 
   <!-- 하단 정보 -->
-  <text x="72" y="560" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.5)">한국생산성본부 주관 2026 인재키움 사업</text>
+  <text x="72" y="575" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.5)">터미널 설치와 나만의 간단한 에이전트 구축(난이도:下)</text>
 
   <!-- 우측 가격 박스 -->
   <rect x="860" y="160" width="280" height="200" rx="16" fill="rgba(255,255,255,0.07)" stroke="rgba(255,107,53,0.4)" stroke-width="1.5"/>
   <text x="870" y="205" font-family="Arial, sans-serif" font-size="16" fill="#b8c5d6" text-decoration="line-through">정가 100만원(인당)</text>
   <text x="870" y="260" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#ff6b35">10만원</text>
-  <text x="870" y="300" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">기업 실부담금</text>
+  <text x="870" y="300" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">1인 실부담금</text>
   <rect x="870" y="322" width="240" height="2" fill="rgba(255,255,255,0.1)"/>
   <text x="870" y="348" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)">✓ 영업일 24시간 내 답변</text>
 </svg>
