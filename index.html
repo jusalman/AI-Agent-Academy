@@ -52,6 +52,8 @@
         color: var(--text-dark);
         line-height: 1.6;
         background-color: var(--white);
+        word-break: keep-all;
+        overflow-wrap: break-word;
       }
 
       .container {
@@ -169,6 +171,23 @@
         font-size: 20px;
         color: var(--text-light);
         margin-bottom: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0 10px;
+        word-break: keep-all;
+        overflow-wrap: normal;
+      }
+      .hero-sub-part {
+        display: inline-block;
+        white-space: nowrap;
+      }
+      .hero-sub-group {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 0 6px;
+        min-width: 0;
+        max-width: 100%;
       }
       .hero-badges {
         display: flex;
@@ -945,7 +964,14 @@
         .hero-sub {
           font-size: 17px;
           line-height: 1.65;
-          overflow-wrap: break-word;
+          gap: 4px 12px;
+          overflow-wrap: normal;
+        }
+        .hero-sub-group {
+          flex-basis: 100%;
+        }
+        .hero-sub-divider {
+          display: none;
         }
         .hero-card,
         .ps-card,
@@ -970,7 +996,7 @@
         .testimonial-card p,
         .form-info-list li,
         .official-list-item strong {
-          overflow-wrap: anywhere;
+          overflow-wrap: break-word;
         }
         section {
           padding: 52px 0;
@@ -1045,7 +1071,21 @@
         <div class="hero-content">
           <span class="hero-badge-top">🏢 고용인원 10명 이상 법인·개인사업자 대상</span>
           <h1>교육비 90% 환급,<br>단 10만 원으로 우리 회사 <span style="color: #ff6b35">AI 에이전트 만들기</span></h1>
-          <p class="hero-sub">임직원 대상 AI 교육 | 병원·법률사무소·전문서비스업 가능 &nbsp;|&nbsp; 한국생산성본부 주관 2026 인재키움 사업</p>
+          <p class="hero-sub">
+            <span class="hero-sub-group">
+              <span class="hero-sub-part">임직원 대상 AI 교육</span>
+            </span>
+            <span class="hero-sub-divider" aria-hidden="true">|</span>
+            <span class="hero-sub-group">
+              <span class="hero-sub-part">병원·법률사무소·전문서비스업</span>
+              <span class="hero-sub-part">가능</span>
+            </span>
+            <span class="hero-sub-divider" aria-hidden="true">|</span>
+            <span class="hero-sub-group">
+              <span class="hero-sub-part">한국생산성본부 주관</span>
+              <span class="hero-sub-part">2026 인재키움 사업</span>
+            </span>
+          </p>
           <div class="hero-badges">
             <div class="hero-badge-item">⏱ 조직에서 바로 쓰는 1일 워크샵</div>
             <div class="hero-badge-item">👥 기수당 최대 20명 선착순 마감</div>
